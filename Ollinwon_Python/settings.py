@@ -75,12 +75,12 @@ WSGI_APPLICATION = 'Ollinwon_Python.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
@@ -92,16 +92,16 @@ DATABASES = {
 #         'PORT':3306
 #     }
 # }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'u909315693_auslandenglish',
-#         'USER':'u909315693_auslandenglish',
-#         'PASSWORD':'Auslandenglish2024',
-#         'HOST':'srv1128.hstgr.io',
-#         'PORT':3306
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ollinwon',
+        'USER':'ollinwon',
+        'PASSWORD':'X9N9rOfLpg575GEU2GcNWeTsfNtSRTPL',
+        'HOST':'dpg-cre7r8tsvqrc73fg4nhg-a',
+        'PORT':5432
+    }
+}
 
 
 # Password validation
