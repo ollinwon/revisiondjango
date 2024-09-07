@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'Ollinwon_Python.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'abc',
-        'USER':'root',
-        'PASSWORD':'',
-        'HOST':'127.0.0.1',
+        'NAME': 'u909315693_N9YLm',
+        'USER':'u909315693_AEaq6',
+        'PASSWORD':'Ollinwon@123',
+        'HOST':'srv1128.hstgr.io',
         'PORT':3306
     }
 }
