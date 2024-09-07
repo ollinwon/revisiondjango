@@ -7,13 +7,13 @@ from django.contrib.auth.hashers import make_password, check_password
 from .serializer import RegisterSerializer
 
 
-# def hello(request,username):
-#     return HttpResponse(f"Hello World!{username}")
-
 def delete(request):
-    name=request.GET.get('name')
-    email=request.GET.get('email')
-    return HttpResponse(f"Hello World!{name} and {email}") 
+    return HttpResponse(f"Hello World!")
+
+# def delete(request):
+#     name=request.GET.get('name')
+#     email=request.GET.get('email')
+#     return HttpResponse(f"Hello World!{name} and {email}") 
 
 def hellohtml(request):
     return render(request,'myfirst.html')
