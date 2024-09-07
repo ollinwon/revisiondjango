@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'Ollinwon_Python.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ollinwon',
         'USER':'ollinwon',
         'PASSWORD':'X9N9rOfLpg575GEU2GcNWeTsfNtSRTPL',
