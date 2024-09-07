@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'u909315693_python',
         'USER':'u909315693_python',
         'PASSWORD':'Ollinwon@123',
-        'HOST':'srv1128.hstgr.io',
+        'HOST':'193.203.184.5',
         'PORT':3306
     }
 }
