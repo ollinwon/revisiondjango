@@ -75,23 +75,23 @@ WSGI_APPLICATION = 'Ollinwon_Python.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'u909315693_python',
-        'USER':'u909315693_python',
-        'PASSWORD':'Ollinwon@123',
-        'HOST':'193.203.184.5',
-        'PORT':3306
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'u909315693_python',
+#         'USER':'u909315693_python',
+#         'PASSWORD':'Ollinwon@123',
+#         'HOST':'193.203.184.5',
+#         'PORT':3306
+#     }
+# }
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
