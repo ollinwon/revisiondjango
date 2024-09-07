@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-fog!@))m^doj@r3)msg35rc428f+vhbn#!i+^vlc)ybmle4v4j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['52.41.36.82','54.191.253.12','44.226.122.3']
 
 
 # Application definition
